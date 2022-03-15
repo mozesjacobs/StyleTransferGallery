@@ -40,6 +40,8 @@ shapes and colors).
 ### League of Legends and Traditional Style Images
 
 ![alt text](results/traditional_style_images_256_1/styles.png)
+![alt text](results/traditional_style_images_256_1/im_8.png)
+![alt text](results/traditional_style_images_256_1/im_8.png)
 
 
 
