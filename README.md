@@ -42,6 +42,8 @@ shapes and colors).
 
 
 ### League of Legends and Traditional Style Images
+Each image in the first row indicates the style image. Each image in the first column
+indicates the content image. 
 
 ![alt text](results/traditional_style_images_256_2/styles.png)
 ![alt text](results/traditional_style_images_256_2/im_0.png)
@@ -65,11 +67,15 @@ We experimented with modifying the weight assigned to the content portion of the
 and the style portion of the loss. Our base values assigned to each were 1 and 1000000
 for style and content, respectively. 
 
+## Discussion
+Style transfer seems to work best when the different parts of the content are clearly defined.
+In addition, it seems to perform better when the chosen "style" includes simple, distinct geometric
+shapes.
 
 ## Conclusion
 Neural style transfer is a wonderful algorithm that can produce some really beautiful
 images. It provides a very interesting case study into the power of CNNs, as well as
-what different layers in a CNN's hierarchy do. It's also really fun to play with :).
+what different layers in a CNN's hierarchy do. It's also quite fun to play with :).
 
 
 ## References
