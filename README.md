@@ -1,5 +1,5 @@
 # StyleTransferGallery
-Style transfer gallery for LoL and JJK images
+Style transfer gallery for League of Legends (LoL) and hand-picked images.
 
 
 ## What is neural style transfer?
@@ -43,9 +43,17 @@ shapes and colors).
 
 ### League of Legends and Traditional Style Images
 
-![alt text](results/traditional_style_images_256_1/styles.png)
-![alt text](results/traditional_style_images_256_1/im_8.png)
-![alt text](results/traditional_style_images_256_1/im_8.png)
+![alt text](results/traditional_style_images_256_2/styles.png)
+![alt text](results/traditional_style_images_256_2/im_0.png)
+![alt text](results/traditional_style_images_256_2/im_1.png)
+![alt text](results/traditional_style_images_256_2/im_2.png)
+![alt text](results/traditional_style_images_256_2/im_3.png)
+![alt text](results/traditional_style_images_256_2/im_4.png)
+![alt text](results/traditional_style_images_256_2/im_5.png)
+![alt text](results/traditional_style_images_256_2/im_6.png)
+![alt text](results/traditional_style_images_256_2/im_7.png)
+![alt text](results/traditional_style_images_256_2/im_8.png)
+![alt text](results/traditional_style_images_256_2/im_9.png)
 
 
 
