@@ -36,9 +36,9 @@ shapes and colors).
 
 ### Featured Examples
 
-![alt text](results/featured/traditional_style_images_256_1/annie.png)
-![alt text](results/featured/traditional_style_images_256_1/kennen.png)
-![alt text](results/featured/traditional_style_images_256_1/mf.png)
+![alt text](results/featured/traditional_style_images_256_2/annie.png)
+![alt text](results/featured/traditional_style_images_256_2/kennen.png)
+![alt text](results/featured/traditional_style_images_256_2/mf.png)
 
 
 ### League of Legends and Traditional Style Images
