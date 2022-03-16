@@ -154,3 +154,5 @@ https://www.youtube.com/watch?v=sPUzhKNZmho
 https://lolskinshop.com/product-category/lol-skins/
 
 https://www.leagueoflegends.com/en-us/champions
+
+Look at data/traditional_style_images/source.txt for links to where we got each of the 8 hand-picked images
