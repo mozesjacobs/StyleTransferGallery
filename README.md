@@ -60,18 +60,18 @@ indicates the content image.
 ### League of Legends and League of Legends
 We also ran picked LoL images for both content and style. Here are some of the results:
 
-![alt text](results/league_content_league_styles_images_256/loading-screen-gentleman-chogath-300x545_Majestic-Empress-Morgana-loadscreen-300x545.jpg)
-![alt text](results/league_content_league_styles_images_256/DrMundo_5-300x545_Garen_4-300x545.jpg)
-![alt text](results/league_content_league_styles_images_256/Karthus_3_Rammus_2-300x545.png)
-![alt text](results/league_content_league_styles_images_256/lululoadscreen_15.skins_lulu_skin15-300x545_load-screen-nightblade-irelia-300x545.jpgg)
-![alt text](results/league_content_league_styles_images_256/load-screen-molten-rammus-300x545_soraka-program-300x545.jpg)
-![alt text](results/league_content_league_styles_images_256/Renekton_5-300x545_RiotX_ChampionList_vayne.jpg)
-![alt text](results/league_content_league_styles_images_256/riven-arcade-300x545_Ashe_1-300x545.jpg)
-![alt text](results/league_content_league_styles_images_256/Sivir_9-300x545_Gragas_SantaLoading.jpg)
-![alt text](results/league_content_league_styles_images_256/load-screen-ruthless-pantheon-300x545_load-screen-whistler-village-twitch-300x545.jpg)
-![alt text](results/league_content_league_styles_images_256/pentakill-yorick-loading-300x545_fizzloadscreen_14.skins_aprilfools_2019-300x545.jpg)
-![alt text](results/league_content_league_styles_images_256/loading-screen-pumpkinhead-fiddlesticks-300x545_Jarvan_IV_VictoriousLoading.jpg)
-![alt text](results/league_content_league_styles_images_256/lulu-cosmic-enchantress-300x545_Tristana_10-300x545.jpg)
+![alt text](results/league_content_league_style_images_256/loading-screen-gentleman-chogath-300x545_Majestic-Empress-Morgana-loadscreen-300x545.jpg)
+![alt text](results/league_content_league_style_images_256/DrMundo_5-300x545_Garen_4-300x545.jpg)
+![alt text](results/league_content_league_style_images_256/Karthus_3_Rammus_2-300x545.png)
+![alt text](results/league_content_league_style_images_256/lululoadscreen_15.skins_lulu_skin15-300x545_load-screen-nightblade-irelia-300x545.jpg)
+![alt text](results/league_content_league_style_images_256/load-screen-molten-rammus-300x545_soraka-program-300x545.jpg)
+![alt text](results/league_content_league_style_images_256/Renekton_5-300x545_RiotX_ChampionList_vayne.jpg)
+![alt text](results/league_content_league_style_images_256/riven-arcade-300x545_Ashe_1-300x545.jpg)
+![alt text](results/league_content_league_style_images_256/Sivir_9-300x545_Gragas_SantaLoading.jpg)
+![alt text](results/league_content_league_style_images_256/load-screen-ruthless-pantheon-300x545_load-screen-whistler-village-twitch-300x545.jpg)
+![alt text](results/league_content_league_style_images_256/pentakill-yorick-loading-300x545_fizzloadscreen_14.skins_aprilfools_2019-300x545.jpg)
+![alt text](results/league_content_league_style_images_256/loading-screen-pumpkinhead-fiddlesticks-300x545_Jarvan_IV_VictoriousLoading.jpg)
+![alt text](results/league_content_league_style_images_256/lulu-cosmic-enchantress-300x545_Tristana_10-300x545.jpg)
 
 
 
