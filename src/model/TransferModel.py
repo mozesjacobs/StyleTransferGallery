@@ -149,6 +149,7 @@ def run_style_transfer(cnn, normalization_mean, normalization_std,
 
     optimizer = optim.LBFGS([input_img])
     
+    
     if do_print:
         print('Optimizing..')
     run = [0]
@@ -186,9 +187,10 @@ def run_style_transfer(cnn, normalization_mean, normalization_std,
             return style_score + content_score
 
         optimizer.step(closure)
+                
 
     # a last correction...
     with torch.no_grad():
         input_img.clamp_(0, 1)
-
+        
     return input_img

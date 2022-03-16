@@ -65,6 +65,20 @@ We experimented with modifying the weight assigned to the content portion of the
 and the style portion of the loss. Our base values assigned to each were 1 and 1000000
 for style and content, respectively. 
 
+This grid showcases
+
+### Evolution
+![alt text](results/evolution/traditional_style_images_256/annie_kennen_mf_steps_grid.png)
+
+This grid shows, for a few select examples, the evolution of the output as optimization progresses.
+We show images for 0 (hasn't started yet), 50, 100, 200, and 300 (finished) optimization steps.
+
+We also show these in gifs (though with a smaller frame size, due to memory constraints):
+![alt text](results/evolution/traditional_style_images_256/annie.gif)
+![alt text](results/evolution/traditional_style_images_256/kennen.gif)
+![alt text](results/evolution/traditional_style_images_256/mf.gif)
+
+
 ## Discussion
 Style transfer seems to work best when the different parts of the content are clearly defined.
 In addition, it seems to perform better when the chosen "style" includes simple, distinct geometric
