@@ -104,12 +104,12 @@ shows the content, style, initial, and output images. We also have a gif over th
 
 
 ![alt text](results/inits/lucian_lucian_yuumi.png)
-![alt text](results/inits/lucian_lucian_yuumi.gif)
-
 ![alt text](results/inits/riven_riven_lucian.png)
-![alt text](results/inits/riven_riven_lucian.gif)
-
 ![alt text](results/inits/yuumi_yuumi_riven.png)
+
+
+![alt text](results/inits/lucian_lucian_yuumi.gif)
+![alt text](results/inits/riven_riven_lucian.gif)
 ![alt text](results/inits/yuumi_yuumi_riven.gif)
 
 
