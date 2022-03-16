@@ -7,11 +7,11 @@ from torchvision import transforms
 import os
 import matplotlib.pyplot as plt
 
-
+# https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 def imshow(tensor, ax, title=None, fontsize=None):
-    unloader = transforms.ToPILImage()  # reconvert into PIL image
-    image = tensor.cpu().clone() # we clone the tensor to not do changes on it
-    image = image.squeeze()      # remove the fake batch dimension
+    unloader = transforms.ToPILImage()e
+    image = tensor.cpu().clone()
+    image = image.squeeze()      
     image = unloader(image)
     ax.imshow(image)
     if title is not None:
@@ -19,4 +19,3 @@ def imshow(tensor, ax, title=None, fontsize=None):
             ax.set_title(title)
         else:
             ax.set_title(title, fontsize=fontsize)
-    #ax.pause(0.001) # pause a bit so that plots are updated

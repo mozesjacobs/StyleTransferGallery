@@ -10,6 +10,7 @@ import torchvision.transforms as transforms
 import torchvision.models as models
 
 
+# https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 class ContentLoss(nn.Module):
 
     def __init__(self, target,):
@@ -25,6 +26,7 @@ class ContentLoss(nn.Module):
         return input
 
     
+# https://pytorch.org/tutorials/advanced/neural_style_tutorial.html 
 def gram_matrix(input):
     a, b, c, d = input.size()  # a=batch size(=1)
     # b=number of feature maps
@@ -38,7 +40,8 @@ def gram_matrix(input):
     # by dividing by the number of element in each feature maps.
     return G.div(a * b * c * d)    
     
-    
+
+# https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 class StyleLoss(nn.Module):
 
     def __init__(self, target_feature):
@@ -51,8 +54,7 @@ class StyleLoss(nn.Module):
         return input
     
     
-# create a module to normalize input image so we can easily put it in a
-# nn.Sequential
+# https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 class Normalization(nn.Module):
     def __init__(self, mean, std):
         super(Normalization, self).__init__()
@@ -69,6 +71,7 @@ class Normalization(nn.Module):
         return (img - self.mean) / self.std
 
     
+# https://pytorch.org/tutorials/advanced/neural_style_tutorial.html    
 def get_style_model_and_losses(cnn, normalization_mean, normalization_std,
                                style_img, content_img, device,
                                content_layers,
@@ -129,6 +132,7 @@ def get_style_model_and_losses(cnn, normalization_mean, normalization_std,
     return model, style_losses, content_losses
 
 
+# https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 def run_style_transfer(cnn, normalization_mean, normalization_std,
                        content_img, style_img, input_img, num_steps=300,
                        style_weight=1000000, content_weight=1, 

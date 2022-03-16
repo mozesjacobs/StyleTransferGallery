@@ -24,7 +24,8 @@ class ImgDataset(Dataset):
         for f in os.listdir(fpath):
             if f.endswith(".jpg") or f.endswith(".jpeg") or f.endswith(".png"):
                 self.data.append(self.load_image(fpath + f, device)) 
-        
+    
+    # https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
     def load_image(self, image_name, device):
         image = Image.open(image_name)
         # fake batch dimension required to fit network's input dimensions
