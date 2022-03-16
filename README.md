@@ -23,7 +23,9 @@ a loss function containing a content term and a style term.
 
 ## Data
 We used artwork from a popular videogame: "League of Legends." In particular, we webscraped
-splash arts for different skins for each champion (each character) in the game. In total,
+splash arts for different skins for each champion (each character) in the game from
+https://lolskinshop.com/product-category/lol-skins/ using Selenium and Python and from 
+https://www.leagueoflegends.com/en-us/champions/ using Parsehub. In total,
 we scraped over 1300 images. 
 
 In addition, we hand-picked images from the web that we thought could be interesting
@@ -144,3 +146,7 @@ what different layers in a CNN's hierarchy do. It's also quite fun to play with 
 https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 
 https://arxiv.org/abs/1508.06576
+
+https://pythonspot.com/selenium-get-images/
+
+https://www.youtube.com/watch?v=sPUzhKNZmho
