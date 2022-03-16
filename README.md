@@ -73,6 +73,13 @@ as good examples to visualize.
 ![alt text](results/weighted/traditional_style_images_256/yuumi.png)
 ![alt text](results/weighted/traditional_style_images_256/riven.png)
 
+It seems that increasing the content loss can dramatically effect the content; it can make the curves from
+the original image more pronounced (though in the middle example, this is not the case). In addition, the color
+is morphed.
+
+Increasing the style loss does not seem to have a significant effect. If you look closely (for instance, at the very
+last row), the colors in some locations are more pronounced, though the effect seems minimal.
+
 
 ### Evolution
 ![alt text](results/evolution/traditional_style_images_256/annie_kennen_mf_steps_grid.png)
