@@ -75,6 +75,7 @@ We show images for 0 (hasn't started yet), 50, 100, 200, and 300 (finished) opti
 
 We also show these, as well as a few more examples, in the following gifs (we utilized a smaller frame size for these gifs,
 due to memory constraints):
+
 ![alt text](results/evolution/traditional_style_images_256/annie.gif)
 ![alt text](results/evolution/traditional_style_images_256/kennen.gif)
 ![alt text](results/evolution/traditional_style_images_256/mf.gif)
