@@ -15,8 +15,8 @@ as the optimization progresses, and using a different image as the base for the 
 ## Motivation
 After seeing examples of how style transfer can be used, we were interested in seeing how neural
 style transfer could be applied to artwork from one of our favorite video games. As we began
-applying the method to different images, we became interested in which parts of the model we
-could tune/change and how that may impact the output image.
+applying the method to different images, we wanted to explore which parts of the model we
+could tune/change and see how that impacts the resulting image.
 
 ## What is neural style transfer?
 Neural style transfer is an algorithm that allows you to combine the "style" of one
