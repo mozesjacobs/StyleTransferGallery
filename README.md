@@ -97,6 +97,21 @@ due to memory constraints):
 ![alt text](results/evolution/traditional_style_images_256/garen.gif)
 ![alt text](results/evolution/traditional_style_images_256/zilean.gif)
 
+### Initialization
+We experiment using different initial images to optimize with. For all of the images above, we utilized the content image
+to be the initial image. However, for the grids below, we experiment with different images to see what happens. The grid
+shows the content, style, initial, and output images. We also have a gif over the course of training.
+
+
+![alt text](results/inits/lucian_lucian_yuumi.png)
+![alt text](results/inits/lucian_lucian_yuumi.gif)
+
+![alt text](results/inits/riven_riven_lucian.png)
+![alt text](results/inits/riven_riven_lucian.gif)
+
+![alt text](results/inits/yuumi_yuumi_riven.png)
+![alt text](results/inits/yuumi_yuumi_riven.gif)
+
 
 ## Discussion
 Style transfer seems to work best when the different parts of the content are clearly defined.
