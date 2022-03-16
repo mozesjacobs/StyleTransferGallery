@@ -1,6 +1,22 @@
 # StyleTransferGallery
 Style transfer gallery for League of Legends (LoL) and hand-picked images.
 
+# Summary
+We use a pre-trained convolutional neural network to perform neural style transfer, which 
+effectively extracts the style of one image and implants it on another, on splash art
+images from the popular video game "League of Legends". We scraped ~1,300 images of champions
+and skins from the game along with a few handpicked images for our dataset. We apply the
+neural style transfer in a variety of ways, including using League of legends images as the content
+and the handpicked typical nerual style transfer images as the style as well as League of Legegnds
+images for both the style and content images. We also explore modifying the weight of
+the content and style loss functions impacts the output, the evolution of the output
+as the optimization progresses, and using a different image as the base for the output.
+
+## Motivation
+After seeing examples of how style transfer can be used, we were interested in seeing how neural
+style transfer could be applied to artwork from one of our favorite video games. As we began
+applying the method to different images, we became interested in which parts of the model we
+could tune/change and how that may impact the output image.
 
 ## What is neural style transfer?
 Neural style transfer is an algorithm that allows you to combine the "style" of one
