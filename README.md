@@ -73,10 +73,14 @@ This grid showcases
 This grid shows, for a few select examples, the evolution of the output as optimization progresses.
 We show images for 0 (hasn't started yet), 50, 100, 200, and 300 (finished) optimization steps.
 
-We also show these in gifs (though with a smaller frame size, due to memory constraints):
+We also show these, as well as a few more examples, in the following gifs (we utilized a smaller frame size for these gifs,
+due to memory constraints):
 ![alt text](results/evolution/traditional_style_images_256/annie.gif)
 ![alt text](results/evolution/traditional_style_images_256/kennen.gif)
 ![alt text](results/evolution/traditional_style_images_256/mf.gif)
+![alt text](results/evolution/traditional_style_images_256/jhin.gif)
+![alt text](results/evolution/traditional_style_images_256/garen.gif)
+![alt text](results/evolution/traditional_style_images_256/zilean.gif)
 
 
 ## Discussion
