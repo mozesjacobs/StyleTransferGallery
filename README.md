@@ -3,9 +3,8 @@ Style transfer gallery for League of Legends (LoL) and hand-picked images.
 
 
 ## What is neural style transfer?
-Neural style transfer is an algorithm that allows you to extract the "style" of
-one image and transplant it onto another image, while keeping the "content" of
-that second image intact.
+Neural style transfer is an algorithm that allows you to combine the "style" of one
+image and the "content" of another image to produce a new image.
 
 
 ## How does it work?
