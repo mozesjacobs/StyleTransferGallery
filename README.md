@@ -62,10 +62,17 @@ indicates the content image.
 
 ### Experimenting with the loss function
 We experimented with modifying the weight assigned to the content portion of the loss
-and the style portion of the loss. Our base values assigned to each were 1 and 1000000
-for style and content, respectively. 
+and the style portion of the loss. The grids below showcase some examples for "base",
+"increased content," and "increased style" sets of weights. "Base" refers to 1000000 and 1 for
+style and content loss, respectively. "Increased content" refers to 1000000 and 100 assigned to style
+and content, respectively. "Increased style" refers to 1000000000 (so 1000 times the base) and 1 assigned
+to style and content, respectively. We also experimented with other examples, but chose these values
+as good examples to visualize.
 
-This grid showcases
+![alt text](results/weighted/traditional_style_images_256/high_noon_lucian.png)
+![alt text](results/weighted/traditional_style_images_256/yuumi.png)
+![alt text](results/weighted/traditional_style_images_256/riven.png)
+
 
 ### Evolution
 ![alt text](results/evolution/traditional_style_images_256/annie_kennen_mf_steps_grid.png)
