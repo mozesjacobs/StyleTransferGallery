@@ -150,3 +150,7 @@ https://arxiv.org/abs/1508.06576
 https://pythonspot.com/selenium-get-images/
 
 https://www.youtube.com/watch?v=sPUzhKNZmho
+
+https://lolskinshop.com/product-category/lol-skins/
+
+https://www.leagueoflegends.com/en-us/champions
