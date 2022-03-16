@@ -18,12 +18,13 @@ style transfer could be applied to artwork from one of our favorite video games.
 applying the method to different images, we wanted to explore which parts of the model we
 could tune/change and see how that impacts the resulting image.
 
-## What is neural style transfer?
+## Technique
+### What is neural style transfer?
 Neural style transfer is an algorithm that allows you to combine the "style" of one
 image and the "content" of another image to produce a new image.
 
 
-## How does it work?
+### How does it work?
 Generally, a pre-trained convolutional neural network (CNN) is used. In our case, we utilize
 VGG. The higher levels of CNNs general have feature maps that produce the content, so
 we can extract content by feeding an image through higher levels of a CNN and using the output.
