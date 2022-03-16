@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 # https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 def imshow(tensor, ax, title=None, fontsize=None):
-    unloader = transforms.ToPILImage()e
+    unloader = transforms.ToPILImage()
     image = tensor.cpu().clone()
     image = image.squeeze()      
     image = unloader(image)
