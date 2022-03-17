@@ -26,15 +26,18 @@ image and the "content" of another image to produce a new image.
 
 ### How does it work?
 Generally, a pre-trained convolutional neural network (CNN) is used. In our case, we utilize
-VGG. The higher levels of CNNs general have feature maps that produce the content, so
-we can extract content by feeding an image through higher levels of a CNN and using the output.
-To extract style, we build a feature space off of responses from multiple layers in the network,
-meaning it can keep track of information correlated across multiple layers.
+a VGG network with 19 layers. The higher levels of CNNs general have feature maps that produce
+the content, so we can extract content by feeding an image through higher levels of a CNN and
+using the output. So, we use the layer 'conv_4' to extract content. To extract style, we build
+a feature space off of responses from multiple layers in the network, meaning it can keep track
+of information correlated across multiple layers. We utilized the layers 'conv_1', 'conv_2',
+'conv_3', 'conv_4', and 'conv_5' to extract style.
 
-To actually do the transplant, we extract a content image and a style image. Then, we create a
+To actually do the style transfer, we start with a content image and a style image. Then, we create a
 new image that will act as our output (this can be random noise or a copy of the content image;
-for our work, we chose the content image). We then optimize the output image with respect to
-a loss function containing a content term and a style term.
+for our work, we chose a copy of the content image). We then optimize the output image with respect to
+a loss function containing a content term and a style term. For most of our experiments, we optimized
+with 300 steps using the LBFGS optimizer.
 
 
 ## Data
@@ -54,11 +57,14 @@ shapes and colors).
 
 ### Featured Examples
 
+These are some of the style transfers we thought worked the best.
+
 ![alt text](results/featured/traditional_style_images_256_2/annie_kennen_mf.png)
 
 
 ### League of Legends and Traditional Style Images
-Each image in the first row indicates the style image. Each image in the first column
+This is an assortment of style transfer images.
+Each image in the first row indicates the style image, and each image in the first column
 indicates the content image. 
 
 ![alt text](results/traditional_style_images_256_2/styles.png)
@@ -91,7 +97,8 @@ We also ran picked LoL images for both content and style. Here are some of the r
 ![alt text](results/league_content_league_style_images_256/loading-screen-pumpkinhead-fiddlesticks-300x545_Jarvan_IV_VictoriousLoading.jpg)
 ![alt text](results/league_content_league_style_images_256/lulu-cosmic-enchantress-300x545_Tristana_10-300x545.jpg)
 
-
+Some of these worked quite well and looked like real skins you could find in the game. Some of them didn't work so well,
+and simply like some a little bit of color was thrown on.
 
 ### Experimenting with the loss function
 We experimented with modifying the weight assigned to the content portion of the loss
@@ -106,9 +113,9 @@ as good examples to visualize.
 ![alt text](results/weighted/traditional_style_images_256/yuumi.png)
 ![alt text](results/weighted/traditional_style_images_256/riven.png)
 
-It seems that increasing the content loss can dramatically effect the content; it can make the curves from
-the original image more pronounced (though in the middle example, this is not the case). In addition, the color
-is morphed.
+It seems that increasing the content loss can dramatically effect the content. It can make the curves from
+the original image more pronounced, though in the middle example, this is not the case. In addition, the color
+seems to be morphed.
 
 Increasing the style loss does not seem to have a significant effect. If you look closely (for instance, at the very
 last row), the colors in some locations are more pronounced, though the effect seems minimal.
@@ -132,8 +139,9 @@ due to memory constraints):
 
 ### Initialization
 We experiment using different initial images to optimize with. For all of the images above, we utilized the content image
-to be the initial image. However, for the grids below, we experiment with different images to see what happens. The grid
-shows the content, style, initial, and output images. We also have a gif over the course of training.
+to be the initial image, and we utilized 5000 optimization steps (as opposed to 300 for all the other experiments).
+However, for the grids below, we experiment with different images to see what happens. The grid shows the content, style, initial,
+and output images. We also have a gif over the course of training.
 
 
 ![alt text](results/inits/lucian_lucian_yuumi.png)
@@ -145,11 +153,17 @@ shows the content, style, initial, and output images. We also have a gif over th
 ![alt text](results/inits/riven_riven_lucian.gif)
 ![alt text](results/inits/yuumi_yuumi_riven.gif)
 
+These were quite interesting! It seems that whatever initialization we use can drastically affect the output.
+
 
 ## Discussion
-Style transfer seems to work best when the different parts of the content are clearly defined.
-In addition, it seems to perform better when the chosen "style" includes simple, distinct geometric
-shapes.
+Style transfer seems to work best when the different parts of the content are clearly defined. In addition, 
+it seems to perform better when the chosen "style" includes simple, distinct geometric shapes. Furthermore,
+tuning the weight of the style loss doesn't seem to drastically affect the output, while tuning the weight
+of the content loss has a big effect. Our experiments also show that the initialization chosen can have a
+large impact on the output, although it's possible that using even more optimization steps could change the
+result.
+
 
 ## Conclusion
 Neural style transfer is a wonderful algorithm that can produce some really beautiful
@@ -171,4 +185,18 @@ https://lolskinshop.com/product-category/lol-skins/
 
 https://www.leagueoflegends.com/en-us/champions
 
-Look at data/traditional_style_images/source.txt for links to where we got each of the 8 hand-picked images
+https://www.xpertup.com/wp-content/uploads/2019/09/Universal-Neural-Style-Transfer-with-Color-Mask-Post-Processing.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+
+https://harishnarayanan.org/images/writing/artistic-style-transfer/wave.jpg
+
+https://harishnarayanan.org/images/writing/artistic-style-transfer/edtaonisl.jpg
+
+https://images.squarespace-cdn.com/content/v1/5800c6211b631b49b4d63657/1485510913507-MZIMDX7HYLB5UT1O6IP5/image-asset.jpeg
+
+https://m.media-amazon.com/images/I/81Voo1m1kEL._AC_SL1402_.jpg
+
+https://the-public-domain-review.imgix.net/collections/the-geometric-landscapes-of-lorenz-stoer-1567/El54_qt_19.jpg
+
+https://numpaint.com/wp-content/uploads/2020/11/Pablo-Picasso-paint-by-number.jpg
