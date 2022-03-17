@@ -127,7 +127,7 @@ last row), the colors in some locations are more pronounced, though the effect s
 This grid shows, for a few select examples, the evolution of the output as optimization progresses.
 We show images for 0 (hasn't started yet), 50, 100, 200, and 300 (finished) optimization steps.
 
-We also show these, as well as a few more examples, in the following gifs (we utilized a smaller frame size for these gifs,
+We also show these, as well as a few more examples, in the following gifs (we utilized a smaller frame size of 256x256 for these gifs,
 due to memory constraints):
 
 ![alt text](results/evolution/traditional_style_images_256/annie.gif)
