@@ -2,7 +2,7 @@
 Style transfer gallery for League of Legends (LoL) and hand-picked images.
 
 # Project Video
-[![](http://img.youtube.com/vi/UBn0OhuktXA/0.jpg)](http://www.youtube.com/watch?v=UBn0OhuktXA "Video Explanation")
+[![](http://img.youtube.com/vi/dAUMfmAVhwA/0.jpg)](https://youtu.be/dAUMfmAVhwA "Video Explanation")
 
 # Summary
 We used a pre-trained convolutional neural network to perform neural style transfer, which 
