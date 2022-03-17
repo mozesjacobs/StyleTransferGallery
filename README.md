@@ -49,7 +49,7 @@ we scraped over 1300 images.
 
 In addition, we hand-picked images from the web that we thought could be interesting
 style images; we called these "Traditional Style Images", since they are the types of
-images often used in style transfer work (i.e., images with lots of distinct geometric
+images we saw often used in style transfer work (i.e., images with lots of distinct geometric
 shapes and colors).
 
 
