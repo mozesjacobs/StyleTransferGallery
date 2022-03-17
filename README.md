@@ -167,6 +167,19 @@ of the content loss has a big effect. Our experiments also show that the initial
 large impact on the output, although it's possible that using even more optimization steps could change the
 result.
 
+A problem that we ran into is that for some of our experiements, such as creating the GIFs, we had to be careful
+of images size as we were running out of memory if we attempted to do too large of an image. We also had trouble
+running the network on even small images without a GPU, which shows how memory intensive some computer vision
+tasks can be.
+
+If we were to continue this project, we would want to create a themed gallery with Anime images from shows
+such as Jujutsu Kaisen and Demon Slayer as the style with League of Legends images as the content. We would
+also like to explore the process of training the network ourselves rather than using a pretrained network.
+
+While a lot of people have used neural style transfer, we did not see any examples that applied the technique
+to League of Legends images, so it was interesting to see how something trained on real life pictures/images
+performed on animated artwork.
+
 
 ## Conclusion
 Neural style transfer is a wonderful algorithm that can produce some really beautiful
